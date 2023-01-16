@@ -8,7 +8,20 @@ import { Component } from '@angular/core';
           <em>For Modern Angular Applications</em>
       </header>
       <div>
-          <saa-app-nav></saa-app-nav>
+        <saa-app-nav>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Prerequisites</a>
+          </li>
+          <li>
+            <a href="#">Modules</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+        </saa-app-nav>
       </div>
   `
 })
